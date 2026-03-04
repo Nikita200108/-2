@@ -7,7 +7,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # --- КОНФИГУРАЦИЯ ---
-TOKEN = os.getenv("8312804637:AAFxiEdV_BAOTSabGhaX6u7SIzSg6f0u_H8")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 TOP_COINS = [
     'BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'BNB/USDT', 'XRP/USDT',
     'ADA/USDT', 'AVAX/USDT', 'DOT/USDT', 'DOGE/USDT', 'LINK/USDT',
@@ -106,3 +106,4 @@ if __name__ == '__main__':
     print("Бот в работе...")
 
     app.run_polling()
+
