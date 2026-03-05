@@ -1,4 +1,5 @@
 python-telegram-bot[job-queue]
-ccxt>=4.2.0
+ccxt
+setuptools
 pandas
 requests
